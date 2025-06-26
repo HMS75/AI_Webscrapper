@@ -1,0 +1,15 @@
+The video, "Python AI Web Scraper Tutorial – Use AI To Scrape ANYTHING" by Tech With Tim, walks through building a powerful AI-powered web scraper in Python. Here's a quick summary:
+
+Overview: The tool scrapes any website using just a URL and a prompt. It uses Python to grab the DOM content and passes it to an AI model for targeted extraction.
+
+Tech Stack: Core components include Selenium (for automated browser interaction), BeautifulSoup (for parsing HTML), and LangChain/Ollama (for integrating an LLM to interpret the scraped content).
+
+Unblocking Sites: It covers how to deal with captchas, IP bans, and content blocks.
+
+Cleaning and Parsing: Once data is scraped, it’s cleaned and prepped before being processed by the LLM to extract exactly what the user wants.
+
+UI & Testing: The front end is built using Streamlit, allowing a clean and interactive user experience. The video wraps with a test run showing the scraper in action.
+
+https://github.com/techwithtim/AI-Web-Scraper/blob/main/README.md
+
+https://github.com/ollama/ollama
